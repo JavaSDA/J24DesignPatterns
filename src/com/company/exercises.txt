@@ -1,0 +1,17 @@
+// 35 mins
+Create a singleton called Students. This singleton will
+store a list of students names as strings then implement the
+following functionality
+
+When adding a student to the list:
+- We should have a method to add a student
+and it should return a boolean based on the success
+of that addition (If it gets added successfully,
+returns true, else it returns false)
+- In order to successfully add a student the name must
+be prefixed by/with either 'senior' or 'junior'
+e.x junior Dwayne Johnson
+- Adding a duplicate name is not allowed.
+- Add a method to retrieve all students with a prefix of
+'senior'
+- Add a method to retreive all students with a prefix of 'junior'

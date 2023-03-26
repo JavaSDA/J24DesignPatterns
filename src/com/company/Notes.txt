@@ -1,0 +1,19 @@
+Singleton is a creational design pattern for creating an object
+that can be constructed at most once, during the application's lifetime.
+
+Types of Singleton
+Eager singleton - The instance for this singleton is created as the
+application starts.
+Lazy singleton - The instance for this singleton is created at the first
+point where the instance is required afterwards, after that the same
+instance will be used for the rest of the application's lifetime.
+
+Singleton Implementations
+Eager singleton implementation
+- Class-based implementation
+- Enum-based implementation
+N.B: All implementations of the eager singletons are thread-safe.
+
+Lazy singleton Implementations
+- Lazy singleton (not thread safe)
+- Lazy double-checked singleton(thread-safe)
