@@ -14,4 +14,30 @@ e.x junior Dwayne Johnson
 - Adding a duplicate name is not allowed.
 - Add a method to retrieve all students with a prefix of
 'senior'
-- Add a method to retreive all students with a prefix of 'junior'
+- Add a method to retrieve all students with a prefix of 'junior'
+
+
+ 15 mins.
+Create a lazy double-checked singleton called Computer, and
+it should have a boolean field called startUp that represents the state
+of the computer at that time.
+Add a single method to turn on the computer and one to get
+the current computer state.
+
+
+// 20 mins
+Create a lazy singleton called Engine, and give it a field
+called isEngineWorking that's a boolean and add getters and setters
+for the field.
+
+// 30 mins
+Create a class called User with the following properties:
+- firstName
+- lastName
+- age
+- email
+- phone
+- address
+
+Create a second class called UserBuilder and use this class to implement a
+builder for the User object.

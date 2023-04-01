@@ -5,7 +5,7 @@ Types of Singleton
 Eager singleton - The instance for this singleton is created as the
 application starts.
 Lazy singleton - The instance for this singleton is created at the first
-point where the instance is required afterwards, after that the same
+point where the instance is required afterwards that same
 instance will be used for the rest of the application's lifetime.
 
 Singleton Implementations
@@ -17,3 +17,26 @@ N.B: All implementations of the eager singletons are thread-safe.
 Lazy singleton Implementations
 - Lazy singleton (not thread safe)
 - Lazy double-checked singleton(thread-safe)
+
+
+Builder is a creational design pattern for creating objects that have
+a lot of parameters in their constructor. This pattern allows you to
+pick and choose and be flexible when creating an object of the designated
+type.
+
+This is done using something called configuring methods. These configuring methods
+are similar to getters and setters, except they a little differently.
+
+Implementations
+- In a separate class, typically named with 'Builder' at the end.
+- In a static class, within the class.
+
+
+Factory Method
+The factory method design pattern is usually used to create an object
+that's potentially complex. This pattern focuses on creating an object
+from some family of objects(either they implement a certain interface or they inherit
+from some base class)
+
+Adapter Pattern is used to adapt a certain object to match a target
+interface.
