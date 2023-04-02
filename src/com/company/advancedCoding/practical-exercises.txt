@@ -1,0 +1,69 @@
+35 mins
+Create a class called Calculator, and create methods in the calculator class for addition,
+subtraction, division, and multiplication. Implement these methods, using exceptions to
+handle Arithmetic related errors (e.g Division by zero) Use functional programming to
+implement the actual method operations.
+
+
+
+
+
+
+
+
+
+
+
+
+40 mins.
+Create a class called Book with the properties:
+- title
+- author
+- price
+
+Create a second class called BookCatalogue to manage a collection of Book objects.
+Implement the following behaviours in the BookCatalogue class.
+- Add a book to the catalogue
+- Remove a book from the catalogue
+- Search for a book by author
+- Search for a book by title
+- Get the total price of all the books available in the catalogue
+
+Use lambda expressions and streams to implement the respective search methods
+by title and by author.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35 mins
+Create a class called TemperatureConverter and that has methods for methods
+to convert temperature between Celsius and Fahrenheit, Use exceptions to
+return errors when values that are outside the range are entered.
+
+For celsius, the absolute zero value is -273C, if someone enters a value lower than this
+it should throw an exception such as an IllegalArgumentException. The equivalent for fahrenheit
+is -459F.
+
+Use FP to implement the respective conversion methods for both the fahrenheit and celsius
+conversions.
+
+For context, the methods can be named as thus:
+- convertToCelsius(double fahrenheit)
+- convertToFahrenheit(double celsius)
+
+Formulas:
+- convertToCelsius = (fah - 32) / 1.8
+- convertToFahrenheit = (cel * 1.8) + 32
