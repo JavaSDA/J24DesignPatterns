@@ -67,3 +67,38 @@ For context, the methods can be named as thus:
 Formulas:
 - convertToCelsius = (fah - 32) / 1.8
 - convertToFahrenheit = (cel * 1.8) + 32
+
+
+
+35 mins
+Create a class called GuessTheNumber that will represent the game.
+In the class, you're expected to have a method that will generate
+a random number between and including 1 - 100 using the Random class.
+
+
+Create a menu as part of the program and this program should have
+a welcome message and prompt the user for their name.
+
+The number attempts each user can guess a number is 10 times.
+For each guess, you are expected to return a prompt telling the user
+if the number entered is higher or lower than the actual number to be guessed.
+
+Keep track of the attempts and display the number of attempts left after each guess.
+
+If a player guess the number correctly, write an appropriate message for them, else
+if they exhaust their guesses,then tell them it's 'game over' then display the correct number
+
+Bonus: There should be an option to exit and/or restart the game.
+
+
+
+
+
+
+
+
+
+
+
+
+
