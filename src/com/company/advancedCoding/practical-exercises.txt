@@ -102,3 +102,53 @@ Bonus: There should be an option to exit and/or restart the game.
 
 
 
+
+35 mins
+Create a class called Product and give it the following properties:
+- productId
+- productName
+- price
+
+
+Create a class called ShoppingCart and give the following features:
+- add product
+- remove products
+- display products in the cart.
+- calculate the total price of items in the shopping cart.
+- BONUS: clear the cart
+
+
+40 mins
+Continuation:
+Add a property called quantity to the Product class.
+
+Create a separate class called Inventory and implement the following behaviours using streams
+- Return a list of products whose price is less than a given value
+- Return a list of products whose quantity is greater than or equal to 10
+- Return the total sum of the prices of all the products in the inventory
+- Return the average price of all the products in the inventory
+- Return the most expensive product in the inventory
+
+
+
+
+
+
+
+
+Create a class called Employee with the following properties:
+- firstName
+- lastName
+- salary
+- age
+
+Create a class called Company that holds a collection of employee objects.
+In the company class, implement the following behaviour, WITHOUT using streams.
+- getAverageSalary()
+- getOldestEmployee()
+- getRandomEmployee()
+
+For the getRandomEmployee(), Assume that you were given a task to create
+a roster for employees that will decide who will work the
+night shift based on a random basis. The method should return a random employee
+whenever it is called
