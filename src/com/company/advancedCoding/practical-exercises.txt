@@ -152,3 +152,66 @@ For the getRandomEmployee(), Assume that you were given a task to create
 a roster for employees that will decide who will work the
 night shift based on a random basis. The method should return a random employee
 whenever it is called
+
+
+
+
+
+
+
+
+Write a program that generates a random password of a given length.
+The password should contain a mix of uppercase and lowercase letters and digits.
+Use a StringBuilder to build the password and a Random object to generate the
+characters. Use the scanner to make the program interactive.
+
+======================================================================
+What's the expected length of the password?: 10
+neo2220neor
+
+
+
+
+
+40 mins.
+Write a program that calculates the sum of the squares of
+the first 20 positive integers. (1-20), use a lambda expression
+to map each integer and then accumulate or sum the resulting stream
+of integers to a single value using the reduce() method
+
+Write a program that reads a list of words from the console and prints
+out the longest word. Use a lambda expression to find the length of the words.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
